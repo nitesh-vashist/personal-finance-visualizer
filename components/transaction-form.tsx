@@ -183,3 +183,9 @@ export function TransactionForm({ isOpen, onClose, onSubmit, categories, initial
     </Dialog>
   )
 }
+// This component provides a form to add or edit transactions with validation
+// It includes fields for amount, date, category, type (income/expense), and description
+// The form validates inputs and displays error messages for invalid fields
+// It uses a controlled form approach with local state to manage input values
+// The form can be opened or closed via props, and it calls the onSubmit callback with
+// the transaction data when submitted

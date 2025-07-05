@@ -11,7 +11,7 @@ interface SpendingInsightsProps {
 }
 
 export function SpendingInsights({ transactions, budgets }: SpendingInsightsProps) {
-  // Calculate insights
+  // Calculate insights based on transactions and budgets
   const currentMonth = new Date().toISOString().slice(0, 7)
   const lastMonth = new Date(new Date().setMonth(new Date().getMonth() - 1)).toISOString().slice(0, 7)
 

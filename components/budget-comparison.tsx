@@ -12,7 +12,7 @@ interface BudgetComparisonProps {
 }
 
 export function BudgetComparison({ budgets, transactions }: BudgetComparisonProps) {
-  // Calculate actual spending for each budget
+  // Calculate actual spending for each budget so we can compare it with the budgeted amount
   const budgetComparison = budgets.map((budget) => {
     const budgetMonth = budget.month
     const actualSpending = transactions

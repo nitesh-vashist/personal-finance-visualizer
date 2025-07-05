@@ -1,6 +1,6 @@
 "use client"
 
-// Inspired by react-hot-toast library
+// Inspired by react-hot-toast library , that is working with React 18
 import * as React from "react"
 
 import type {
