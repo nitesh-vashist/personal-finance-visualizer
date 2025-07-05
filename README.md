@@ -73,7 +73,7 @@ createdAt	Date
 🌐 Deployment
 This application is deployed on Vercel.
 
-🔗 Live URL: https://your-vercel-url.vercel.app
+🔗 Live URL: https://personal-finance-visualizer-ecru.vercel.app/
 
 Crafted with care to bring financial clarity — because your money should work for you, not against you.
 
